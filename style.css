@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Nunito+Sans:ital,wght@0,500;0,600;1,200;1,500&family=Nunito:wght@300&family=Roboto:wght@100&family=Ysabeau+Infant:ital,wght@0,100;1,1&display=swap');
 
 * { 
-    -webkit-box-sizing:    border-box; 
-    -moz-box-sizing:    border-box; 
+    
     box-sizing:    border-box;
     margin:  0; 
     padding:  0;
@@ -126,10 +125,64 @@ img {
     display: block;
     color: #FFE400;
 }
-.gym-no {
- background-image: url(./Img/a1.png);
- width: 162px;
-}
+
+.much{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .we{
+  font-size: 40px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  visibility: inherit;
+  }
+  .more{
+  font-size: 40px;
+  line-height: 15px;
+      font-weight: 700;
+      color: rgb(255, 228, 0);
+      font-family: "Roboto Condensed";
+      font-style: italic;
+      visibility: inherit;
+  }
+  .a{
+    padding-top: 40px;
+  }
+  .a1{
+    margin-left: 189px;
+    height: 125px;
+  }
+  .a2{
+    margin-left:40px;
+    height: 110px;
+  }
+  .a3{
+    margin-left: 50px;
+    height: 125px;
+  }
+  .a4{
+    margin-left: 55px;
+    height: 100px;
+  }
+  .a5{
+    margin-left: 110px;
+    height: 100px;
+  }
+  .a6{
+    margin-left: 100px;
+    height: 100px;
+  }
+  .b{
+    margin-left: 100px;
+    font-weight: 800;
+    font-family: icomoon!important;
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.534);
+  }
+  .b1{
+    margin-left: 125px;
+  }
 .download {
     background: url(./Img/workbaner.jpg);
      max-width: 100%;
@@ -153,6 +206,8 @@ img {
     color: #FFE400;
    margin-top: 0px;
 }
+
+
 .btn-down {
      margin-left: 55px;  
  width: 170px;
@@ -203,7 +258,7 @@ img {
     margin-right: -15px;
 } 
 
-:after,:before { 
+:after:before { 
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box; 
     box-sizing: border-box;
@@ -218,7 +273,7 @@ img {
     clear: both;
 } 
 
-.col-lg-8,.col-md-8,.col-sm-8,.col-ms-8,.col-lg-4,.col-md-4,.col-sm-4,.col-ms-4 ,.col-sm-12,.col-md-12{ 
+.col-lg-8,.col-md-8,.col-sm-8,.col-ms-8,.col-lg-4,.col-md-4,.col-sm-4,.col-ms-4 ,.col-sm-12,.col-md-12,{ 
     position: relative; 
     min-height: 1px; 
     padding-left: 15px; 
@@ -279,39 +334,42 @@ img {
     float:  left;
     width: 33.33333333%;
   } 
+}
 
 .latest { 
     padding-bottom: 25px;
-} 
+ padding-left: 40px;
+text-align: center;
+}
 
-.videou { 
+ .videou { 
     width: 100%; 
-    height: 400px;
-} 
+    height: 450px; 
+}  
 
 .latest h1 { 
-    font-size:   27pt; 
+     font-size: 24px; 
     margin:   0 auto;
-    font-family:    Montserrat,sans-serif !important;
+    /* font-family: Montserrat,sans-serif; */
     font-weight:  600;
-    line-height:      1.1; 
+    line-height:1.1; 
     color:  #323232; 
-    margin-top:     20px; 
-    margin-bottom:     10px;
+    margin-top:20px; 
+    margin-bottom: 10px;
     text-align:  left; 
-    max-width: 400px;
-} 
+    /* max-width: 450px; */
+}  
 
 .vide h1  { 
-    font-weight: 500 !important; 
+    font-weight: 500; 
     font-size: 36px; 
     font-style: italic; 
     text-align: center;
 } 
 
 .actionf h1  { 
-    font-weight: 500 !important; 
-    font-size: 25px !important; 
+    font-weight: 500; 
+    font-size: 25px; 
     text-align: center;
 } 
 
@@ -396,15 +454,15 @@ button {
     -moz-background-clip: padding; 
     border-radius: 30px; 
     background-clip: padding-box; 
-    transition: background .8s ease; 
+    transition: .8s ease; 
     font-weight: 500; 
     padding: 8px 40px;
 } 
 
 .join { 
     border-radius: 0 !important; 
-    border: 1px solid #000 !important; 
-    background: #ffe400 !important; 
+    border: 1px solid #000; 
+    background: #ffe400 ; 
     color: #ffff; 
     font-size: 17px;
 } 
@@ -515,7 +573,7 @@ textarea {
 }  
 #style-BBwrz.style-BBwrz {  
    display: none;  
-}  }     
+  }     
 
  
 @media (min-width: 992px){ 
@@ -572,12 +630,7 @@ h5 {
     text-align: center;
 } 
 
-.col-sm-4 { 
-    position: relative; 
-    min-height: 1px; 
-    padding-left: 15px; 
-    padding-right: 15px;
-} 
+    
 
 @media (min-width: 768px){ 
   .col-sm-4 { 
